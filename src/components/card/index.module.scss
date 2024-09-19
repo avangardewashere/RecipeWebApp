@@ -1,0 +1,72 @@
+.recipeCard {
+  width: 360rem;
+  height: 360rem;
+
+  position: absolute;
+}
+
+.cardBody {
+  border-radius: 10rem;
+  width: 300rem;
+  font-size: 10rem;
+  height: 320rem;
+  background: white;
+  color: #161616;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  gap:12rem;
+  padding:4rem auto;
+  box-sizing: border-box;
+
+  .cardImage{
+    width:270rem;
+    height:170rem;
+  }
+
+  .cardContent{
+    padding-inline:16rem;
+    display: flex;
+    flex-direction: column;
+    gap:8rem;
+    transform: translateY(-40rem);
+  }
+
+  
+
+}
+
+.cardTitle {
+  font-size: 20rem;
+  width: 100%;
+  text-align: start;
+  
+}
+
+.cardText {
+  font-size: 12rem;
+  width: 100%;
+  text-align: start;
+}
+
+.cardButton {
+  border-radius: 12.781px;
+  border: 1.022px solid #dedcdc;
+  width:120rem;
+  height:44rem;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18rem;
+  color:white;
+  stroke: white 1px;
+  background: linear-gradient(92deg, #0081a7 0%, #00afb9 96.62%);
+  box-shadow: 0px 1.022px 1.022px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition:all .2s linear;
+}
+
+.cardButton:hover{
+    scale:(1.15);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); ;
+}
